@@ -11,7 +11,7 @@ const IconUndo = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewB
 const IconRedo = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15 15 21 9m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3" /></svg>;
 const IconDownload = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" /></svg>;
 const IconRefresh = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>;
-const IconSparkles = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" /></svg>;
+const IconSparkles = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0-2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" /></svg>;
 const IconRotate = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>;
 const IconPhoto = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" /></svg>;
 const IconUploadLarge = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-16 h-16"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" /></svg>;
@@ -89,7 +89,6 @@ const App: React.FC = () => {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const refFileInputRef = useRef<HTMLInputElement>(null);
-  const mainPromptInputRef = useRef<HTMLTextAreaElement>(null);
 
   const t = DICTIONARY[lang];
   const currentPresets = activeTab === 'EXTERIOR' ? EXTERIOR_PRESETS : activeTab === 'INTERIOR' ? INTERIOR_PRESETS : PLAN_PRESETS;
@@ -105,9 +104,21 @@ const App: React.FC = () => {
     return () => unsubscribe();
   }, [user]);
 
+  // Robust key selection trigger
   const handleOpenKeyDialog = async () => {
-    // Fixed: Cast window to any to access aistudio helper without conflicting global types.
-    await (window as any).aistudio.openSelectKey();
+    try {
+        const aiStudio = (window as any).aistudio;
+        if (aiStudio && typeof aiStudio.openSelectKey === 'function') {
+            await aiStudio.openSelectKey();
+            // Assume success per instructions
+            console.log("Project key dialog triggered.");
+        } else {
+            console.error("AI Studio helper not found in this environment.");
+            alert("API Key Selection is not supported in this environment. Please ensure you are running within the intended platform.");
+        }
+    } catch (e) {
+        console.error("Error opening key dialog:", e);
+    }
   };
 
   const handleGenerate = async () => {
@@ -115,10 +126,13 @@ const App: React.FC = () => {
     
     // Check if Pro key is needed
     if (useProModel) {
-        // Fixed: Cast window to any to access aistudio helper without conflicting global types.
-        const hasKey = await (window as any).aistudio.hasSelectedApiKey();
-        if (!hasKey) {
-            await (window as any).aistudio.openSelectKey();
+        const aiStudio = (window as any).aistudio;
+        if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function') {
+            const hasKey = await aiStudio.hasSelectedApiKey();
+            if (!hasKey) {
+                await aiStudio.openSelectKey();
+                // Proceed immediately after triggering dialog per instructions
+            }
         }
     }
 
@@ -146,10 +160,14 @@ const App: React.FC = () => {
       setHistoryIndex(newHistory.length - 1);
       setRefinePrompt('');
     } catch (error: any) {
-      if (error.message === "PROJECT_KEY_INVALID") {
-          alert("Project access denied. Please select a valid Project Key.");
-          // Fixed: Cast window to any to access aistudio helper without conflicting global types.
-          await (window as any).aistudio.openSelectKey();
+      console.error("Generation error caught in App:", error);
+      // Special handling for requested entity not found - per instructions
+      if (error.message === "PROJECT_KEY_INVALID" || (error.message && error.message.includes("Requested entity was not found"))) {
+          alert("Selected Project Key is invalid for this model. Please select a project with active Gemini API and Billing enabled.");
+          const aiStudio = (window as any).aistudio;
+          if (aiStudio && typeof aiStudio.openSelectKey === 'function') {
+              await aiStudio.openSelectKey();
+          }
       } else {
           alert(`Error: ${error.message}`);
       }
@@ -161,6 +179,15 @@ const App: React.FC = () => {
   const handleUpscale4K = async () => {
     const currentImg = history[historyIndex];
     if (!currentImg) return;
+    
+    // Ensure Pro Key is selected
+    const aiStudio = (window as any).aistudio;
+    if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function') {
+        if (!(await aiStudio.hasSelectedApiKey())) {
+            await aiStudio.openSelectKey();
+        }
+    }
+
     setLoading(true);
     try {
       const upData = await geminiService.upscaleImage4K(currentImg.data, currentImg.mimeType);
@@ -168,7 +195,13 @@ const App: React.FC = () => {
       setHistory([...history.slice(0, historyIndex + 1), newImg]);
       setHistoryIndex(historyIndex + 1);
     } catch (e: any) {
-      alert("Upscale failed.");
+      if (e.message && e.message.includes("Requested entity was not found")) {
+          alert("4K Upscale requires a valid Pro Project Key.");
+          const aiStudio = (window as any).aistudio;
+          if (aiStudio) await aiStudio.openSelectKey();
+      } else {
+          alert("Upscale failed: " + e.message);
+      }
     } finally {
       setLoading(false);
     }
@@ -200,21 +233,25 @@ const App: React.FC = () => {
         </div>
         
         <div className="flex gap-4">
-          <button onClick={() => setHistoryIndex(0)} disabled={historyIndex <= 0} className="text-gray-400 text-xs flex items-center gap-1 disabled:opacity-30"><IconRefresh /> {t.reset}</button>
-          <button onClick={() => { setHistory([]); setHistoryIndex(-1); setMainPrompt(''); setReferenceImage(null); }} className="text-gray-400 text-xs">+ {t.newProject}</button>
+          <button onClick={() => setHistoryIndex(0)} disabled={historyIndex <= 0} className="text-gray-400 text-xs flex items-center gap-1 disabled:opacity-30 hover:text-white transition-colors"><IconRefresh /> {t.reset}</button>
+          <button onClick={() => { setHistory([]); setHistoryIndex(-1); setMainPrompt(''); setReferenceImage(null); }} className="text-gray-400 text-xs hover:text-white transition-colors">+ {t.newProject}</button>
         </div>
 
         <div className="flex items-center gap-4">
           <div className="flex flex-col items-end mr-2">
-            <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" className="text-[9px] text-blue-400 hover:underline">Billing Docs</a>
-            <button onClick={handleOpenKeyDialog} className="flex items-center gap-1 bg-gray-800 hover:bg-gray-700 text-[10px] px-2 py-1 rounded border border-gray-600">
-               <IconKey /> Select Project Key
+            <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" rel="noopener noreferrer" className="text-[9px] text-blue-400 hover:underline mb-0.5">Billing Docs</a>
+            <button 
+              onClick={handleOpenKeyDialog} 
+              className="flex items-center gap-1.5 bg-gray-800 hover:bg-gray-700 text-[10px] px-2.5 py-1 rounded-md border border-gray-600 active:scale-95 transition-all shadow-sm group"
+            >
+               <IconKey /> 
+               <span className="font-bold group-hover:text-brand-blue">Select Project Key</span>
             </button>
           </div>
-          <button onClick={() => setLang(lang === Language.TH ? Language.EN : Language.TH)} className="text-xs font-bold bg-black/40 px-2 py-1 rounded border border-gray-600">{lang}</button>
+          <button onClick={() => setLang(lang === Language.TH ? Language.EN : Language.TH)} className="text-xs font-bold bg-black/40 px-2 py-1 rounded border border-gray-600 hover:bg-black/60">{lang}</button>
           <div className="flex items-center gap-2">
-            {user.role === Role.ADMIN && <button onClick={() => setShowAdmin(true)} className="text-[10px] bg-blue-700 px-2 py-1 rounded">Admin</button>}
-            <button onClick={() => setUser(null)} className="text-[10px] bg-red-900/50 px-2 py-1 rounded">{t.logout}</button>
+            {user.role === Role.ADMIN && <button onClick={() => setShowAdmin(true)} className="text-[10px] bg-blue-700 px-2 py-1 rounded hover:bg-blue-600">Admin</button>}
+            <button onClick={() => setUser(null)} className="text-[10px] bg-red-900/50 px-2 py-1 rounded hover:bg-red-800">{t.logout}</button>
           </div>
         </div>
       </header>
@@ -223,31 +260,31 @@ const App: React.FC = () => {
         <aside className="w-[300px] bg-brand-panel border-r border-gray-700 flex flex-col p-3 z-10 shadow-lg overflow-y-auto">
           <div className="flex bg-black/40 p-1 rounded-lg border border-gray-600 mb-3">
              {['EXTERIOR', 'INTERIOR', 'PLAN'].map(tab => (
-               <button key={tab} onClick={() => setActiveTab(tab as any)} className={`flex-1 py-1.5 text-[10px] font-bold rounded transition-all ${activeTab === tab ? 'bg-brand-blue text-white shadow' : 'text-gray-400'}`}>
+               <button key={tab} onClick={() => setActiveTab(tab as any)} className={`flex-1 py-1.5 text-[10px] font-bold rounded transition-all ${activeTab === tab ? 'bg-brand-blue text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}>
                  {tab === 'EXTERIOR' ? t.tabExterior : tab === 'INTERIOR' ? t.tabInterior : t.tabPlan}
                </button>
              ))}
           </div>
 
           <div className="mb-4 bg-black/40 p-1 rounded-lg flex border border-gray-600">
-            <button onClick={() => setUseProModel(false)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 ${!useProModel ? 'bg-green-600 text-white shadow' : 'text-gray-400'}`}><IconLightning /> Standard</button>
-            <button onClick={() => setUseProModel(true)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 ${useProModel ? 'bg-brand-blue text-white shadow' : 'text-gray-400'}`}><IconStar /> Pro (2K)</button>
+            <button onClick={() => setUseProModel(false)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 transition-all ${!useProModel ? 'bg-green-600 text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}><IconLightning /> Standard</button>
+            <button onClick={() => setUseProModel(true)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 transition-all ${useProModel ? 'bg-brand-blue text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}><IconStar /> Pro (2K)</button>
           </div>
 
           <div className="mb-3">
-            <label className="text-[10px] text-brand-blue font-bold uppercase mb-1 block">{t.mainPrompt}</label>
-            <textarea value={mainPrompt} onChange={(e) => { setMainPrompt(e.target.value); setActivePreset(null); }} className="w-full bg-black/30 border border-gray-600 rounded p-2 text-xs text-white h-20 focus:border-brand-blue outline-none leading-relaxed" placeholder="Describe your design..."/>
+            <label className="text-[10px] text-brand-blue font-bold uppercase mb-1 block tracking-wider">{t.mainPrompt}</label>
+            <textarea value={mainPrompt} onChange={(e) => { setMainPrompt(e.target.value); setActivePreset(null); }} className="w-full bg-black/30 border border-gray-600 rounded p-2.5 text-xs text-white h-24 focus:border-brand-blue outline-none leading-relaxed transition-colors resize-none shadow-inner" placeholder="Describe your design architecture, materials, lighting..."/>
           </div>
 
           {historyIndex >= 0 && (
-            <div className="mb-3">
-              <label className="text-[10px] text-gray-400 font-bold uppercase mb-1 block">{t.refinePrompt}</label>
-              <textarea value={refinePrompt} onChange={(e) => setRefinePrompt(e.target.value)} className="w-full bg-black/30 border border-gray-600 rounded p-2 text-xs text-white h-12 focus:border-brand-blue outline-none" />
+            <div className="mb-3 animate-in fade-in slide-in-from-top-2 duration-300">
+              <label className="text-[10px] text-gray-400 font-bold uppercase mb-1 block tracking-wider">{t.refinePrompt}</label>
+              <textarea value={refinePrompt} onChange={(e) => setRefinePrompt(e.target.value)} className="w-full bg-black/30 border border-gray-600 rounded p-2 text-xs text-white h-14 focus:border-brand-blue outline-none transition-colors" placeholder="Modify specific parts..."/>
             </div>
           )}
 
           <div className="mb-3">
-             <label className="text-[10px] text-gray-400 font-bold uppercase mb-1 block">{t.uploadRef}</label>
+             <label className="text-[10px] text-gray-400 font-bold uppercase mb-1 block tracking-wider">{t.uploadRef}</label>
              <input type="file" accept="image/*" ref={refFileInputRef} onChange={(e) => {
                 const file = e.target.files?.[0];
                 if (file) {
@@ -257,23 +294,23 @@ const App: React.FC = () => {
                 }
              }} className="hidden" />
              {!referenceImage ? (
-                <button onClick={() => refFileInputRef.current?.click()} className="w-full h-24 border-2 border-dashed border-gray-600 rounded-lg flex flex-col items-center justify-center text-gray-500 hover:text-brand-blue bg-black/20"><IconPhoto /><span className="text-[10px] mt-1">+ Reference Style</span></button>
+                <button onClick={() => refFileInputRef.current?.click()} className="w-full h-24 border-2 border-dashed border-gray-600 rounded-lg flex flex-col items-center justify-center text-gray-500 hover:text-brand-blue hover:bg-brand-blue/5 hover:border-brand-blue/50 transition-all bg-black/20 group"><IconPhoto /><span className="text-[10px] mt-2 font-bold group-hover:text-brand-blue transition-colors">+ Reference Style</span></button>
              ) : (
                 <div className="relative w-full h-28 rounded-lg overflow-hidden border border-gray-600 bg-black group cursor-pointer" onClick={() => refFileInputRef.current?.click()}>
-                  <img src={`data:${referenceImage.mime};base64,${referenceImage.data}`} className="w-full h-full object-contain opacity-90 group-hover:opacity-100" />
-                  <button onClick={(e) => { e.stopPropagation(); setReferenceImage(null); }} className="absolute top-1 right-1 bg-black/60 hover:bg-red-600 rounded-full p-1 transition-colors"><svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" /></svg></button>
+                  <img src={`data:${referenceImage.mime};base64,${referenceImage.data}`} className="w-full h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                  <button onClick={(e) => { e.stopPropagation(); setReferenceImage(null); }} className="absolute top-1 right-1 bg-black/60 hover:bg-red-600 rounded-full p-1 transition-colors text-white shadow-lg"><svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" /></svg></button>
                 </div>
              )}
           </div>
 
-          <div className="mb-2 border-t border-gray-700 pt-2">
-             <div onClick={() => setImageStyleOpen(!imageStyleOpen)} className="flex items-center justify-between w-full cursor-pointer text-xs font-bold text-gray-300 mb-1">
-                <span>{t.imageStyle}</span><span>{imageStyleOpen ? '-' : '+'}</span>
+          <div className="mb-2 border-t border-gray-700 pt-3">
+             <div onClick={() => setImageStyleOpen(!imageStyleOpen)} className="flex items-center justify-between w-full cursor-pointer text-[10px] font-black tracking-widest text-gray-400 mb-2 uppercase hover:text-white transition-colors">
+                <span>{t.imageStyle}</span><span>{imageStyleOpen ? '−' : '+'}</span>
              </div>
              {imageStyleOpen && (
-               <div className="grid grid-cols-1 gap-1">
+               <div className="grid grid-cols-1 gap-1.5 animate-in fade-in duration-300">
                   {IMAGE_STYLES.map((s, i) => (
-                    <button key={i} onClick={() => applyImageStyle(s)} className={`text-left text-[11px] p-2 rounded-md border transition-all ${activeStyle === s.labelKey ? 'bg-brand-blue border-brand-blue text-white' : 'bg-gray-800 border-gray-600 text-gray-300 hover:border-brand-blue'}`}>
+                    <button key={i} onClick={() => applyImageStyle(s)} className={`text-left text-[11px] px-3 py-2 rounded-md border transition-all ${activeStyle === s.labelKey ? 'bg-brand-blue border-brand-blue text-white shadow-md' : 'bg-gray-800/50 border-gray-600 text-gray-300 hover:border-brand-blue/50 hover:bg-gray-800'}`}>
                       {t[s.labelKey]}
                     </button>
                   ))}
@@ -281,14 +318,14 @@ const App: React.FC = () => {
              )}
           </div>
 
-          <div className="flex-1 mb-3 border-t border-gray-700 pt-2">
-             <div onClick={() => setPresetsOpen(!presetsOpen)} className="flex items-center justify-between w-full cursor-pointer text-xs font-bold text-gray-300 mb-1">
-                <span>{t.presets}</span><span>{presetsOpen ? '-' : '+'}</span>
+          <div className="flex-1 mb-4 border-t border-gray-700 pt-3">
+             <div onClick={() => setPresetsOpen(!presetsOpen)} className="flex items-center justify-between w-full cursor-pointer text-[10px] font-black tracking-widest text-gray-400 mb-2 uppercase hover:text-white transition-colors">
+                <span>{t.presets}</span><span>{presetsOpen ? '−' : '+'}</span>
              </div>
              {presetsOpen && (
-               <div className="space-y-1">
+               <div className="space-y-1 animate-in fade-in duration-300">
                   {currentPresets.map((p, i) => (
-                    <button key={i} onClick={() => applyPreset(p)} className={`w-full text-left text-[11px] p-2 rounded-md border transition-all ${activePreset === p.label ? 'bg-brand-blue border-brand-blue text-white' : 'bg-gray-800 border-gray-600 text-gray-300 hover:border-brand-blue'}`}>
+                    <button key={i} onClick={() => applyPreset(p)} className={`w-full text-left text-[11px] px-3 py-2 rounded-md border transition-all ${activePreset === p.label ? 'bg-brand-blue border-brand-blue text-white shadow-md' : 'bg-gray-800/50 border-gray-600 text-gray-300 hover:border-brand-blue/50 hover:bg-gray-800'}`}>
                       {p.label}
                     </button>
                   ))}
@@ -296,19 +333,24 @@ const App: React.FC = () => {
              )}
           </div>
 
-          <button onClick={handleGenerate} disabled={loading} className="w-full bg-brand-blue text-white text-sm font-bold py-3 rounded-lg shadow-lg hover:brightness-110 disabled:opacity-50 flex items-center justify-center gap-2">
-            {loading ? <span className="animate-spin h-4 w-4 border-2 border-white border-t-transparent rounded-full"></span> : <><IconSparkles /> {t.generate}</>}
+          <button onClick={handleGenerate} disabled={loading} className="w-full bg-brand-blue text-white text-sm font-bold py-3.5 rounded-xl shadow-lg hover:brightness-110 active:scale-[0.98] transition-all disabled:opacity-50 flex items-center justify-center gap-2 group relative overflow-hidden">
+            <div className="absolute inset-0 bg-white/10 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+            {loading ? <span className="animate-spin h-5 w-5 border-2 border-white border-t-transparent rounded-full"></span> : <><IconSparkles /> {t.generate}</>}
           </button>
         </aside>
 
-        <main className="flex-1 relative bg-black flex flex-col items-center justify-center">
-           <div className="relative w-full h-full flex items-center justify-center p-8 pb-24">
+        <main className="flex-1 relative bg-black flex flex-col items-center justify-center overflow-hidden">
+           <div className="relative w-full h-full flex items-center justify-center p-12 pb-28">
               {currentImage ? (
-                 <img src={`data:${currentImage.mimeType};base64,${currentImage.data}`} className="max-w-full max-h-full object-contain shadow-2xl transition-transform duration-300" style={{ transform: `rotate(${rotation}deg) scaleX(${flipH ? -1 : 1})` }} />
+                 <div className="relative group max-w-full max-h-full">
+                    <img src={`data:${currentImage.mimeType};base64,${currentImage.data}`} className="max-w-full max-h-full object-contain shadow-[0_0_100px_rgba(0,0,0,0.5)] transition-all duration-500 rounded-sm" style={{ transform: `rotate(${rotation}deg) scaleX(${flipH ? -1 : 1})` }} />
+                    <div className="absolute inset-0 bg-brand-blue/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
+                 </div>
               ) : (
-                <div onClick={() => fileInputRef.current?.click()} className="w-full max-w-xl aspect-video border-4 border-dashed border-brand-blue/30 rounded-3xl bg-brand-blue/5 hover:bg-brand-blue/10 flex flex-col items-center justify-center cursor-pointer group">
-                   <div className="text-brand-blue mb-6 group-hover:scale-110 transition-transform"><IconUploadLarge /></div>
-                   <h3 className="text-2xl font-bold text-brand-blue mb-2">Upload Main Image</h3>
+                <div onClick={() => fileInputRef.current?.click()} className="w-full max-w-2xl aspect-video border-4 border-dashed border-brand-blue/20 rounded-[40px] bg-brand-blue/5 hover:bg-brand-blue/10 hover:border-brand-blue/40 transition-all flex flex-col items-center justify-center cursor-pointer group shadow-2xl">
+                   <div className="text-brand-blue mb-8 group-hover:scale-110 group-hover:-translate-y-2 transition-transform duration-500 opacity-60 group-hover:opacity-100"><IconUploadLarge /></div>
+                   <h3 className="text-3xl font-black text-brand-blue/80 mb-3 tracking-tight group-hover:text-brand-blue transition-colors">Upload Main Design</h3>
+                   <p className="text-gray-500 text-sm font-medium tracking-wide">Drag & drop your architectural photo or click to browse</p>
                    <input type="file" accept="image/*" ref={fileInputRef} onChange={(e) => {
                       const file = e.target.files?.[0];
                       if (file) {
@@ -326,21 +368,24 @@ const App: React.FC = () => {
            </div>
 
            {currentImage && (
-             <div className="absolute bottom-6 bg-brand-panel border border-gray-700 rounded-full px-6 py-3 flex items-center gap-6 shadow-2xl z-20">
-                <button onClick={() => setHistoryIndex(historyIndex - 1)} disabled={historyIndex <= 0} className="flex flex-col items-center text-gray-400 hover:text-white disabled:opacity-20"><IconUndo /><span className="text-[10px] mt-1">{t.undo}</span></button>
-                <button onClick={() => setHistoryIndex(historyIndex + 1)} disabled={historyIndex >= history.length - 1} className="flex flex-col items-center text-gray-400 hover:text-white disabled:opacity-20"><IconRedo /><span className="text-[10px] mt-1">{t.redo}</span></button>
-                <div className="w-px h-8 bg-gray-700"></div>
-                <button onClick={() => setFlipH(!flipH)} className="flex flex-col items-center text-gray-400 hover:text-white group"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" /></svg><span className="text-[10px] mt-1">Flip</span></button>
-                <button onClick={() => setRotation(r => r - 90)} className="flex flex-col items-center text-gray-400 hover:text-white"><IconRotate /><span className="text-[10px] mt-1">Rotate</span></button>
-                <div className="w-px h-8 bg-gray-700"></div>
-                <button onClick={handleUpscale4K} className="flex flex-col items-center text-white hover:text-brand-blue"><span className="font-black text-lg leading-none">4K</span><span className="text-[10px] mt-1">Upscale</span></button>
-                <div className="w-px h-8 bg-gray-700"></div>
+             <div className="absolute bottom-8 bg-brand-panel/95 backdrop-blur-md border border-gray-700/50 rounded-[28px] px-8 py-4 flex items-center gap-8 shadow-[0_20px_50px_rgba(0,0,0,0.6)] z-20 animate-in slide-in-from-bottom-6 duration-500">
+                <button onClick={() => setHistoryIndex(historyIndex - 1)} disabled={historyIndex <= 0} className="flex flex-col items-center text-gray-400 hover:text-white disabled:opacity-20 transition-all active:scale-90"><IconUndo /><span className="text-[10px] mt-1.5 font-bold tracking-tighter">{t.undo}</span></button>
+                <button onClick={() => setHistoryIndex(historyIndex + 1)} disabled={historyIndex >= history.length - 1} className="flex flex-col items-center text-gray-400 hover:text-white disabled:opacity-20 transition-all active:scale-90"><IconRedo /><span className="text-[10px] mt-1.5 font-bold tracking-tighter">{t.redo}</span></button>
+                <div className="w-px h-10 bg-gray-700/50"></div>
+                <button onClick={() => setFlipH(!flipH)} className="flex flex-col items-center text-gray-400 hover:text-white group transition-all active:scale-90"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" /></svg><span className="text-[10px] mt-1.5 font-bold tracking-tighter">Flip</span></button>
+                <button onClick={() => setRotation(r => r - 90)} className="flex flex-col items-center text-gray-400 hover:text-white transition-all active:scale-90"><IconRotate /><span className="text-[10px] mt-1.5 font-bold tracking-tighter">Rotate</span></button>
+                <div className="w-px h-10 bg-gray-700/50"></div>
+                <button onClick={handleUpscale4K} className="flex flex-col items-center text-white hover:text-brand-blue group transition-all active:scale-95">
+                    <span className="font-black text-xl leading-none group-hover:scale-110 transition-transform">4K</span>
+                    <span className="text-[10px] mt-1 font-bold tracking-tighter">Upscale</span>
+                </button>
+                <div className="w-px h-10 bg-gray-700/50"></div>
                 <button onClick={() => {
                    const link = document.createElement('a');
                    link.href = `data:${currentImage.mimeType};base64,${currentImage.data}`;
-                   link.download = `result-${Date.now()}.png`;
+                   link.download = `professional-ai-${Date.now()}.png`;
                    link.click();
-                }} className="flex flex-col items-center text-brand-blue hover:text-blue-400 font-bold"><IconDownload /><span className="text-[10px] mt-1">{t.download}</span></button>
+                }} className="flex flex-col items-center text-brand-blue hover:text-blue-400 font-bold transition-all active:scale-90"><IconDownload /><span className="text-[10px] mt-1.5 font-bold tracking-tighter">{t.download}</span></button>
              </div>
            )}
         </main>
