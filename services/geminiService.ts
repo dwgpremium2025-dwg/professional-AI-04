@@ -82,7 +82,7 @@ export const geminiService = {
       const response = await ai.models.generateContent({
         model: model,
         contents: { parts },
-        config: config
+        config: config as any // Cast to any to bypass strict GenerateContentConfig checking for imageConfig
       });
 
       if (response.candidates?.[0]?.content?.parts) {
@@ -122,7 +122,7 @@ export const geminiService = {
         },
         config: {
             imageConfig: { imageSize: "4K" }
-        }
+        } as any // Cast to any to bypass strict GenerateContentConfig checking for imageConfig
       });
 
       if (response.candidates?.[0]?.content?.parts) {
