@@ -11,7 +11,7 @@ const IconUndo = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewB
 const IconRedo = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M15 15 21 9m0 0-6-6m6 6H9a6 6 0 0 0 0 12h3" /></svg>;
 const IconDownload = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" /></svg>;
 const IconRefresh = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>;
-const IconSparkles = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" /></svg>;
+const IconSparkles = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5"><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0-2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" /></svg>;
 const IconRotate = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" /></svg>;
 const IconPhoto = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" /></svg>;
 const IconUploadLarge = () => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-16 h-16"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5" /></svg>;
@@ -87,6 +87,7 @@ const App: React.FC = () => {
   const [rotation, setRotation] = useState(0);
   const [flipH, setFlipH] = useState(false);
   const [hasKey, setHasKey] = useState(false);
+  const [isAiStudioSupported, setIsAiStudioSupported] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const refFileInputRef = useRef<HTMLInputElement>(null);
@@ -105,31 +106,29 @@ const App: React.FC = () => {
     return () => unsubscribe();
   }, [user]);
 
-  // Periodically check if key is selected to update UI
+  // Check if selection tool is available in this environment
   useEffect(() => {
-    const checkKey = async () => {
+    const checkAvailability = async () => {
         const aiStudio = (window as any).aistudio;
-        if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function') {
+        if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function' && typeof aiStudio.openSelectKey === 'function') {
+            setIsAiStudioSupported(true);
             const selected = await aiStudio.hasSelectedApiKey();
             setHasKey(selected);
+        } else {
+            setIsAiStudioSupported(false);
         }
     };
-    checkKey();
-    const interval = setInterval(checkKey, 2000);
+    checkAvailability();
+    const interval = setInterval(checkAvailability, 5000); // Check less frequently
     return () => clearInterval(interval);
   }, []);
 
-  // Robust key selection trigger
   const handleOpenKeyDialog = async () => {
     try {
         const aiStudio = (window as any).aistudio;
         if (aiStudio && typeof aiStudio.openSelectKey === 'function') {
             await aiStudio.openSelectKey();
-            // Proceed assuming success per instructions to avoid race condition
-            setHasKey(true);
-        } else {
-            console.error("AI Studio helper not found in this environment.");
-            alert("API Key Selection is not supported in this environment.");
+            setHasKey(true); // Assume success per instructions
         }
     } catch (e) {
         console.error("Error opening key dialog:", e);
@@ -139,14 +138,13 @@ const App: React.FC = () => {
   const handleGenerate = async () => {
     if (!user) return;
     
-    // Check if Pro key is needed
-    if (useProModel) {
+    // For Pro model, ensure a key is selected if the tool is supported
+    if (useProModel && isAiStudioSupported) {
         const aiStudio = (window as any).aistudio;
-        if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function') {
-            const selected = await aiStudio.hasSelectedApiKey();
-            if (!selected) {
-                await aiStudio.openSelectKey();
-            }
+        const selected = await aiStudio.hasSelectedApiKey();
+        if (!selected) {
+            await aiStudio.openSelectKey();
+            // Proceed immediately
         }
     }
 
@@ -175,10 +173,12 @@ const App: React.FC = () => {
       setRefinePrompt('');
     } catch (error: any) {
       console.error("Generation error:", error);
-      // Instructions state we should reset and prompt user if this specific error occurs
-      if (error.message === "PROJECT_KEY_INVALID" || (error.message && error.message.includes("Requested entity was not found"))) {
-          alert("Project access denied. Please select a valid Project Key from a paid project.");
-          await handleOpenKeyDialog();
+      if (error.message === "API_KEY_MISSING") {
+          alert("No API Key found. Please select a Project Key to use AI features.");
+          if (isAiStudioSupported) await handleOpenKeyDialog();
+      } else if (error.message === "PROJECT_KEY_INVALID" || (error.message && error.message.includes("Requested entity was not found"))) {
+          alert("Your Project Key doesn't have access to this model. Please select a valid key with billing enabled.");
+          if (isAiStudioSupported) await handleOpenKeyDialog();
       } else {
           alert(`Error: ${error.message}`);
       }
@@ -191,9 +191,8 @@ const App: React.FC = () => {
     const currentImg = history[historyIndex];
     if (!currentImg) return;
     
-    // Pro feature check
-    const aiStudio = (window as any).aistudio;
-    if (aiStudio && typeof aiStudio.hasSelectedApiKey === 'function') {
+    if (isAiStudioSupported) {
+        const aiStudio = (window as any).aistudio;
         if (!(await aiStudio.hasSelectedApiKey())) {
             await aiStudio.openSelectKey();
         }
@@ -207,8 +206,8 @@ const App: React.FC = () => {
       setHistoryIndex(historyIndex + 1);
     } catch (e: any) {
       if (e.message && e.message.includes("Requested entity was not found")) {
-          alert("Upscale requires a valid Project Key.");
-          await handleOpenKeyDialog();
+          alert("Upscale requires a Pro Project Key.");
+          if (isAiStudioSupported) await handleOpenKeyDialog();
       } else {
           alert("Upscale failed: " + e.message);
       }
@@ -250,14 +249,19 @@ const App: React.FC = () => {
         <div className="flex items-center gap-4">
           <div className="flex flex-col items-end mr-2">
             <a href="https://ai.google.dev/gemini-api/docs/billing" target="_blank" rel="noopener noreferrer" className="text-[9px] text-blue-400 hover:underline mb-0.5">Billing Docs</a>
-            <button 
-              onClick={handleOpenKeyDialog} 
-              className={`flex items-center gap-1.5 bg-gray-800 hover:bg-gray-700 text-[10px] px-2.5 py-1 rounded-md border ${hasKey ? 'border-green-500/50' : 'border-gray-600'} active:scale-95 transition-all shadow-sm group`}
-            >
-               <div className={`w-1.5 h-1.5 rounded-full ${hasKey ? 'bg-green-500 animate-pulse' : 'bg-gray-500'}`}></div>
-               <IconKey /> 
-               <span className="font-bold group-hover:text-brand-blue">Select Project Key</span>
-            </button>
+            
+            {/* Show selection button only if the tool is available in the environment */}
+            {isAiStudioSupported && (
+                <button 
+                onClick={handleOpenKeyDialog} 
+                className={`flex items-center gap-1.5 bg-gray-800 hover:bg-gray-700 text-[10px] px-2.5 py-1 rounded-md border ${hasKey ? 'border-green-500/50' : 'border-gray-600'} active:scale-95 transition-all shadow-sm group`}
+                title="Select a Project Key to enable Pro features"
+                >
+                <div className={`w-1.5 h-1.5 rounded-full ${hasKey ? 'bg-green-500 animate-pulse' : 'bg-gray-500'}`}></div>
+                <IconKey /> 
+                <span className="font-bold group-hover:text-brand-blue">Project Key</span>
+                </button>
+            )}
           </div>
           <button onClick={() => setLang(lang === Language.TH ? Language.EN : Language.TH)} className="text-xs font-bold bg-black/40 px-2 py-1 rounded border border-gray-600 hover:bg-black/60">{lang}</button>
           <div className="flex items-center gap-2">
@@ -279,12 +283,12 @@ const App: React.FC = () => {
 
           <div className="mb-4 bg-black/40 p-1 rounded-lg flex border border-gray-600">
             <button onClick={() => setUseProModel(false)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 transition-all ${!useProModel ? 'bg-green-600 text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}><IconLightning /> Standard</button>
-            <button onClick={() => setUseProModel(true)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 transition-all ${useProModel ? 'bg-brand-blue text-white shadow' : 'text-gray-400 hover:text-gray-200'}`}><IconStar /> Pro (2K)</button>
+            <button onClick={() => setUseProModel(true)} className={`flex-1 py-2 text-[10px] font-bold rounded-md flex items-center justify-center gap-1 transition-all ${useProModel ? 'bg-brand-blue text-white shadow' : 'text-gray-400 hover:text-gray-200'}`} title={isAiStudioSupported ? "Requires Project Key" : "Pro Features"}><IconStar /> Pro (2K)</button>
           </div>
 
           <div className="mb-3">
             <label className="text-[10px] text-brand-blue font-bold uppercase mb-1 block tracking-wider">{t.mainPrompt}</label>
-            <textarea value={mainPrompt} onChange={(e) => { setMainPrompt(e.target.value); setActivePreset(null); }} className="w-full bg-black/30 border border-gray-600 rounded p-2.5 text-xs text-white h-24 focus:border-brand-blue outline-none leading-relaxed transition-colors resize-none shadow-inner" placeholder="Describe your design architecture, materials, lighting..."/>
+            <textarea value={mainPrompt} onChange={(e) => { setMainPrompt(e.target.value); setActivePreset(null); }} className="w-full bg-black/30 border border-gray-600 rounded p-2.5 text-xs text-white h-24 focus:border-brand-blue outline-none leading-relaxed transition-colors resize-none shadow-inner" placeholder="Describe your design..."/>
           </div>
 
           {historyIndex >= 0 && (

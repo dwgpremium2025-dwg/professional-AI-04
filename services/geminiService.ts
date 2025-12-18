@@ -11,7 +11,7 @@ declare const process: {
 
 const getApiKey = (): string => {
   // Always use the injected process.env.API_KEY
-  if (process.env.API_KEY) {
+  if (process.env.API_KEY && process.env.API_KEY.length > 5) {
     return process.env.API_KEY;
   }
   throw new Error("API_KEY_MISSING");
@@ -30,7 +30,7 @@ export const geminiService = {
     useProModel: boolean = false
   ): Promise<string> => {
     
-    // Per rules: Create a new instance right before making an API call
+    // Create instance right before call with latest key
     const ai = new GoogleGenAI({ apiKey: getApiKey() });
     
     const model = useProModel ? 'gemini-3-pro-image-preview' : 'gemini-2.5-flash-image';
@@ -83,7 +83,7 @@ export const geminiService = {
       const response = await ai.models.generateContent({
         model: model,
         contents: { parts },
-        config: config as any // Cast to any to bypass strict GenerateContentConfig checking for imageConfig
+        config: config as any 
       });
 
       if (response.candidates?.[0]?.content?.parts) {
@@ -97,7 +97,6 @@ export const geminiService = {
       throw new Error("No image generated.");
     } catch (error: any) {
       console.error("Gemini Image Gen Error:", error);
-      // Re-throw specific key error for UI to handle
       if (error.message && error.message.includes("Requested entity was not found")) {
           throw new Error("PROJECT_KEY_INVALID");
       }
